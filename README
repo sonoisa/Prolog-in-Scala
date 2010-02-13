@@ -1,0 +1,13 @@
+Prolog in Scala
+
+Scalaで実装したPrologです。
+
+ToDo
+* Prolog Coreテスト
+* Internal DSLテスト
+* External DSL(REPL)実装
+* External DSL(REPL)テスト
+
+Done
+* Prolog Core実装
+* Internal DSL実装
