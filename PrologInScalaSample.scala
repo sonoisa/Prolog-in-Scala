@@ -15,7 +15,7 @@ object PrologInScalaSample extends InternalDSLProlog {
 
     val tak = Functor("tak")
 
-    tak('X, 'Y, 'Z, 'Z) :- (
+    tak('X, 'Y, 'Z, 'A) :- (
       'X =< 'Y, CUT, 'Z === 'A
       )
     tak('X, 'Y, 'Z, 'A) :- (
